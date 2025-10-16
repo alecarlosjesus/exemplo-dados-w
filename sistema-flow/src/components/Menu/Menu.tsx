@@ -10,7 +10,7 @@ export default function Menu(){
             <span> | </span>
             <Link to="/cad">Cadastro</Link>
             <span> | </span>
-            <Link to="/contatos">Contato</Link>
+            <Link to="/contato">Contato</Link>
         </nav>
     );
 }
