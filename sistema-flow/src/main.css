@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.grail {
+  display: grid;
+  grid-template-columns: 1fr min(1080px, 100%) 1fr;
+  row-gap: 16px;
+  & > * {
+    grid-column: 2;
+  }
+}
+
+.card-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
