@@ -14,7 +14,7 @@ export default function Contato() {
 
   return (
     <main>
-      <h1>Contato</h1>
+      <h1>TESTE</h1>
 
       <form onSubmit={handleSubmit}>
         <div>
